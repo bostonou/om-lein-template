@@ -26,6 +26,7 @@
 
              ["resources/less/bootstrap/alerts.less" (render "resources/less/bootstrap/alerts.less")]
              ["resources/less/bootstrap/badges.less" (render "resources/less/bootstrap/badges.less")]
+             ["resources/less/bootstrap/bootstrap.less" (render "resources/less/bootstrap/bootstrap.less")]
              ["resources/less/bootstrap/breadcrumbs.less" (render "resources/less/bootstrap/breadcrumbs.less")]
              ["resources/less/bootstrap/button-groups.less" (render "resources/less/bootstrap/button-groups.less")]
              ["resources/less/bootstrap/buttons.less" (render "resources/less/bootstrap/buttons.less")]

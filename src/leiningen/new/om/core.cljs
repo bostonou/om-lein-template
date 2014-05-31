@@ -8,9 +8,17 @@
 
 (secretary/set-config! :prefix "#")
 
-(defn component [app owner])
+(defn component [app owner]
+  (reify
+    om/IRender
+    (render [this]
+      (html [:h1 "{{name}}"]))))
 
-(defroute "/" {} (component app-state))
+(defn root [app-state]
+  (om/root component app-state
+         {:target (. js/document (getElementById "app"))}))
+
+(defroute "/" {} (root app-state))
 
 (om/root navigation/component app-state
          {:target (. js/document (getElementById "navigation"))})
