@@ -1,0 +1,4 @@
+watch('resources/less/.*\.less') {|f|
+  puts "Compiling LESS files..."
+  system("lessc resources/less/styles.less > resources/public/css/styles.css")
+}
