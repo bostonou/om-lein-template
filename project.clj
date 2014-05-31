@@ -1,4 +1,4 @@
-(defproject om/lein-template "0.1.0"
+(defproject sethtrain/om-lein-template "0.1.0"
   :description "Om project boilerplate template"
   :url "http://github.com/sethtrain/om-lein-template"
   :license {:name "Eclipse Public License"
