@@ -7,7 +7,7 @@
                  [compojure "1.1.8"]
                  [org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2197"]
-                 [om "0.6.1"]
+                 [om "0.6.4"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
                  [sablono "0.2.16"]
                  [secretary "1.1.0"]]
