@@ -4,9 +4,12 @@ A Leiningen template for Om projects.
 
 This is how I like things done, you may or may not agree.
 
+## Install (~/.lein/profiles.clj)
+
+    {:user {:plugins [[sethtrain/om-lein-template "0.1.0"]]}}
+
 ## Usage
 
-    lein install
     lein new om <app name>
 
 ## License
