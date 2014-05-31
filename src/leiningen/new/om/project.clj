@@ -11,7 +11,15 @@
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
                  [sablono "0.2.16"]
                  [secretary "1.1.0"]]
-  :plugins [[lein-cljsbuild "1.0.3"]]
+  :plugins [[lein-cljsbuild "1.0.3"]
+            [com.keminglabs/cljx "0.4.0"]]
+  :cljx {:builds [{:source-paths ["src/cljx"]
+                 :output-path "target/classes"
+                 :rules :clj}
+                {:source-paths ["src/cljx"]
+                 :output-path "out"
+                 :rules :cljs}]}
+  :hooks [cljx.hooks]
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
                         :compiler {:output-to "main.js"

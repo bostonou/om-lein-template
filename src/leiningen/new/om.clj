@@ -21,6 +21,7 @@
              ["src/clj/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["src/cljs/{{sanitized}}/core.cljs" (render "core.cljs" data)]
              ["src/cljs/{{sanitized}}/navigation.cljs" (render "navigation.cljs" data)]
+             "src/cljx"
 
              ["observr/less.observr" (render "observr/less.observr")]
 
